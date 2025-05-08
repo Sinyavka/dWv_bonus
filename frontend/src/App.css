@@ -1,0 +1,56 @@
+/* App.css — Hello Kitty–тема + фиксировку навбара + отступ для контента */
+
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: #fff0f5;
+    color: #333;
+  }
+  
+  .kitty-nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    background: #ffffff;
+    padding: 12px 24px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    z-index: 100;
+  }
+  
+  .kitty-link {
+    margin-right: 16px;
+    color: #ff69b6;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  .kitty-link:last-child {
+    margin-right: 0;
+  }
+  
+  .kitty-link:hover {
+    color: #d63384;
+    text-decoration: underline;
+  }
+  
+  button {
+    background: #ffb6c1;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: inherit;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  button:hover {
+    background: #ffa3b0;
+  }
+  
+  .main-content {
+    padding: 24px;
+    padding-top: 16px; /* чтобы не залезало под nav */
+  }
+  
