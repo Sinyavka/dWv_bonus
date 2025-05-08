@@ -9,7 +9,7 @@
 # Prereqs: Python 3.10+, pip, virtualenv
 
 # Navigate to backend folder
-cd full_service/backend
+cd dWv_bonus/backend
 
 # Create & activate virtual environment
 python3 -m venv venv
@@ -36,7 +36,7 @@ uvicorn app.main:app --reload --port 8000
 # Prereqs: Node.js 16+, npm
 
 # In a new terminal, navigate to frontend folder
-cd full_service/frontend
+cd dWv_bonus/frontend
 
 # Install Node dependencies
 npm install
